@@ -1,4 +1,4 @@
-FROM smartentry/centos:7-0.3.13
+FROM smartentry/alpine:3.5-0.3.13
 
 MAINTAINER Yifan Gao <docker@yfgao.com>
 

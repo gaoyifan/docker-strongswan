@@ -1,4 +1,2 @@
 #!/bin/bash
-yum install -y epel-release
-yum install -y strongswan strongswan-tnc-imcvs
-yum clean all
+apk add --no-cache strongswan
