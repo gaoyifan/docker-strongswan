@@ -1,4 +1,6 @@
 #!/bin/bash
+yum makecache fast
 yum install -y epel-release
+yum makecache fast
 yum install -y strongswan xl2tpd radiusclient-ng supervisor
 yum clean all
